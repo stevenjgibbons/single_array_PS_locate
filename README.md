@@ -52,4 +52,29 @@ should result in a plot resembling the output in the image below
 
 ![Output from running "python test_azi_distr.py sig1_backazi_distr.txt 10000"](azi_distr_example.png)  
 
+Similarly, if we define a probability distribution for the first P-wave arrival in a single file,
+e.g. **ev1_P1_arrtime_distr.txt**  
+```
+2020-06-22T09:20:01.500 2020-06-22T09:20:02.500
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.6
+0.6
+0.6
+0.7
+0.5
+0.2
+```
+where the first line gives the first and last times of our distribution and the next lines define the
+probability function for equally spaced intervals between these limits. Now, typing  
+```
+python test_arrtime_distr.py   ev1_P1_arrtime_distr.txt    10000
+```
+should give you something like the following output  
+
+![Output from running "python test_arrtime_distr.py   ev1_P1_arrtime_distr.txt    10000"](arrtime_distr_example.png)  
 
