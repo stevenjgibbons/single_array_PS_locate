@@ -26,4 +26,30 @@ S_travel_time = 75.195901
 S_minus_P     = 32.120000
 Distance_deg  = 2.585275
 ```
-This appears to fit well with our table.  
+This appears to fit well with our table.    
+
+We now also need to define a probability distribution for backazimuth from our station.  
+We do this in the form of a single file, e.g. **sig1_backazi_distr.txt**  
+```
+135.0  141.1
+0.1
+0.2
+0.3
+0.4
+0.5
+0.4
+0.3
+0.2
+0.1
+```
+where the first line gives the min and max values of backazimuth and the following lines
+give that values at equally spaced points in this interval, including the extreme values.
+So typing  
+```
+python test_azi_distr.py sig1_backazi_distr.txt 10000
+```
+should result in a plot resembling the output in the image below  
+
+![Output from running "python test_azi_distr.py sig1_backazi_distr.txt 10000"](azi_distr_example.png)  
+
+
