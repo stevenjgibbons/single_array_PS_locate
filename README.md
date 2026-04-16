@@ -7,6 +7,9 @@ A python program to estimate the location of seismic events given probability di
 
 https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/single_array_PS_locate.assess.sqaaas/main/.report/assessment_output.json  
 
+Version v1.0.0 of single_array_PS_locate is permanently archived on https://doi.org/10.5281/zenodo.19604617  
+
+[![DOI](https://zenodo.org/badge/1202616488.svg)](https://doi.org/10.5281/zenodo.19604617)  
 
 The main program is called using  
 ```
