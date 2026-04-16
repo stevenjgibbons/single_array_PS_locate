@@ -1,5 +1,12 @@
 # single_array_PS_locate
-A python program to estimate the location of seismic events given probability distributions for P1 and S1 arrival times and backazimuth from a seismic station  
+A python program to estimate the location of seismic events given probability distributions for P1 and S1 arrival times and backazimuth from a seismic station.  
+
+[![SQAaaS badge](https://github.com/EOSC-synergy/SQAaaS/raw/master/badges/badges_150x116/badge_software_bronze.png)](https://api.eu.badgr.io/public/assertions/_CpBnNcOS3GALTMMq6Mv3Q "SQAaaS bronze badge achieved")  
+
+[![SQAaaS badge shields.io](https://img.shields.io/badge/sqaaas%20software-bronze-e6ae77)](https://api.eu.badgr.io/public/assertions/_CpBnNcOS3GALTMMq6Mv3Q "SQAaaS bronze badge achieved")  
+
+https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/single_array_PS_locate.assess.sqaaas/main/.report/assessment_output.json  
+
 
 The main program is called using  
 ```
